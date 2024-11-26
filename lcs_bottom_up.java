@@ -30,6 +30,13 @@ public class lcs_bottom_up {
             }
         }
 
+        // if(dp[n][m] == b.length()){
+        //     System.out.println("Yes");
+        // }
+        // else{
+        //     System.out.println("No");
+        // }
+
         System.out.println("Longest Common Subsequence is: " + dp[n][m]);
         in.close();
     }
