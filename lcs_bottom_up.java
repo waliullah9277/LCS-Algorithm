@@ -8,7 +8,7 @@ public class lcs_bottom_up {
         System.out.print("Enter string b: ");
         String b = in.nextLine();
         int n = a.length();
-        int m = a.length();
+        int m = b.length();
         int[][] dp = new int[n+1][m+1];
 
         for(int i=0; i<=n; i++){
